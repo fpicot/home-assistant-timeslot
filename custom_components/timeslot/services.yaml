@@ -1,0 +1,48 @@
+toggle:
+  name: Toggle
+  description: Toggle an input boolean
+  target:
+    entity:
+      domain: timeslot
+
+turn_off:
+  name: Turn off
+  description: Turn off an input boolean
+  target:
+    entity:
+      domain: timeslot
+
+turn_on:
+  name: Turn on
+  description: Turn on an input boolean
+  target:
+    entity:
+      domain: timeslot
+
+set_parameters:
+  name: Set parameters
+  description: Set parameters on a timeslots
+  target:
+    entity:
+      domain: timeslot
+  fields:
+    name:
+      name: Name
+      description: Name for the entity
+      selector:
+        text:
+    enabled:
+      name: Enabled
+      description: Status of the timeslot
+      selector:
+        boolean:
+    start:
+      name: Start time
+      description: Begining of the timeslot
+      selector:
+        time:
+    end:
+      name: End time
+      description: End of the timeslot
+      selector:
+        time:

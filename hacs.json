@@ -1,0 +1,7 @@
+{
+  "name": "Timeslot",
+  "content_in_root": true,
+  "domains": ["timeslot"],
+  "homeassistant": "2021.12.0",
+  "render_readme": true
+}

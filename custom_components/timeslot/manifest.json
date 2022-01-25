@@ -1,0 +1,12 @@
+{
+  "domain": "timeslot",
+  "name": "Timeslot",
+  "version": "1.0.0",
+  "documentation": "https://github.com/fpicot/home-assistant-timeslot/",
+  "issue_tracker": "https://github.com/fpicot/home-assistant-timeslot/issues",
+  "config_flow": false,
+  "codeowners": ["@fpicot"],
+  "dependencies": [],
+  "requirements": [],
+  "iot_class": "calculated"
+}
